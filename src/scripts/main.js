@@ -50,11 +50,15 @@ document.addEventListener('keydown', (e) => {
 });
 
 startBtn.addEventListener('click', () => {
-  game.restart();
-  game.start();
-  renderGame();
+  if (startBtn.textContent === 'Start') {
+    game.start();
+    messageStart.classList.add('hidden');
+    startBtn.textContent = 'Restart';
+  } else {
+    game.restart();
+    messageStart.classList.remove('hidden');
+    startBtn.textContent = 'Start';
+  }
 
-  messageStart.classList.add('hidden');
-  startBtn.textContent = 'Restart';
-  startBtn.style.textAlign = 'center';
+  renderGame();
 });

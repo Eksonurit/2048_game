@@ -220,7 +220,7 @@ class Game {
     this._addRandomTile();
 
     this.score = 0;
-    this.status = 'playing';
+    this.status = 'idle';
   }
 
   _checkLose() {
