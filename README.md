@@ -4,7 +4,7 @@ A classic implementation of the popular sliding tile puzzle game 2048 built with
 
 ## Live Preview
 
-- [Live Demo](https://Eksonurit.github.io/2048-game/)
+- [Live Demo](https://Eksonurit.github.io/2048_game/)
 
 ## Technologies Used
 
@@ -37,8 +37,8 @@ Follow these steps to run the project locally.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Eksonurit/2048-game.git
-cd 2048-game
+git clone https://github.com/Eksonurit/2048_game.git
+cd 2048_game
 ```
 
 2. Install dependencies:
